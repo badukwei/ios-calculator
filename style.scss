@@ -60,6 +60,10 @@ body {
       .change {
         background-color: #a6a6a6;
         color: black;
+
+        &:hover {
+          background-color: white;
+        }
       }
 
       .operator, .equal {

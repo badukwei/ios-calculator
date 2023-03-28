@@ -158,3 +158,4 @@ clear.addEventListener("click", () => {
   currentOperator = "";
   resultValue = 0;
 });
+

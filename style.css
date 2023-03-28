@@ -57,6 +57,9 @@ body .calculator .buttons .change {
   background-color: #a6a6a6;
   color: black;
 }
+body .calculator .buttons .change:hover {
+  background-color: white;
+}
 body .calculator .buttons .operator, body .calculator .buttons .equal {
   background-color: #ff9403;
 }
