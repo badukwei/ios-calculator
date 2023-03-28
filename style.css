@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .calculator {
+  padding: 32px 14px;
+  background-color: black;
+  border-radius: 32px;
+  position: relative;
+}
+body .calculator .result {
+  margin-top: 67px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  height: 40%;
+  font-size: 64px;
+  font-weight: 100;
+  font-family: -apple-system, "Segoe UI";
+}
+body .calculator .buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+body .calculator .buttons .button {
+  font-size: 28px;
+  font-weight: 400;
+  width: 64px;
+  height: 64px;
+  color: white;
+  background-color: #333333;
+  border-radius: 100%;
+  border: none;
+}
+body .calculator .buttons .button:hover {
+  cursor: pointer;
+  background-color: #a6a6a6;
+  transition: 0.5s ease-in-out;
+}
+body .calculator .buttons .button:active {
+  transform: scale(0.9);
+  transition: 0s;
+}
+body .calculator .buttons .change {
+  background-color: #a6a6a6;
+  color: black;
+}
+body .calculator .buttons .operator, body .calculator .buttons .equal {
+  background-color: #ff9403;
+}
+body .calculator .buttons .zero {
+  padding-right: 76px;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 32px;
+}/*# sourceMappingURL=style.css.map */
